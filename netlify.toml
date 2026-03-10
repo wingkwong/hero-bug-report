@@ -1,0 +1,11 @@
+[build]
+command = "bun run build"
+publish = "dist/client"
+
+[build.environment]
+BUN_VERSION = "1.3.0"
+NODE_VERSION = "22.12.0"
+
+[dev]
+command = "vite dev"
+port = 3000
